@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Навигация — лодочный сервис, автосервис, детейлинг</title>
+  <meta name="description" content="Сервис лодок, авто и детейлинг. Быстро, честно, с гарантией." />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Unbounded:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="assets/icon.svg">
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+<header class="header">
+  <a class="brand" href="#top" aria-label="На главную">
+      <img src="assets/light.svg" alt="Маяк" class="logo-icon">
+    <span class="brand__name">Навигация</span>
+  </a>
+
+  <nav class="nav">
+    <a href="#services">Услуги</a>
+    <a href="#price">Прайс</a>
+    <a href="#works">Работы</a>
+    <a href="#why">Почему мы</a>
+    <a href="#faq">FAQ</a>
+    <a href="#map">Карта</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero section">
+    <img src="assets/boat.webp" alt="" class="hero-boat">
+    <div class="hero__inner reveal">
+      <h1>Навигация</h1>
+      <p class="lead">Сервис лодок, авто и детейлинг. Быстро, честно, с гарантией.</p>
+
+      <div class="cta">
+        <a class="btn btn--primary" href="tel:+7XXXXXXXXXX">
+          Позвоните нам
+        </a>
+        <a class="btn btn--ghost" href="mailto:hello@example.com?subject=Заявка%20с%20сайта">
+          Написать на почту
+        </a>
+        <!-- или бот: <a class="btn btn--ghost" href="https://t.me/your_bot">Написать в Telegram</a> -->
+      </div>
+    </div>
+  </section>
+
+<section id="services" class="section section--alt">
+  <div class="container">
+    <h2 class="reveal">Услуги</h2>
+
+    <div class="cards cards--3">
+      <!-- ЛОДОЧНЫЙ СЕРВИС + ДЕТЕЙЛИНГ -->
+      <article class="card reveal">
+        <h3>Катера и лодки </h3>
+        <ul class="dash">
+          <li>— Плановое ТО катеров и моторов</li>
+          <li>— Диагностика ходовой части, электроники, топливной системы</li>
+          <li>— Ремонт гелькоута и локальная покраска</li>
+          <li>— Полировка корпуса и палубы, восстановление блеска</li>
+          <li>— Защитные покрытия: керамика, воск, плёнка</li>
+          <li>— Детейлинг интерьера: химчистка салона, тика, фурнитуры</li>
+          <li>— Сезонная консервация/расконсервация</li>
+        </ul>
+      </article>
+
+      <!-- МОТО СЕРВИС -->
+      <article class="card reveal">
+        <h3>Мотосервис</h3>
+        <ul class="dash">
+          <li>— Регулярное ТО, подбор масел и расходников</li>
+          <li>— Диагностика электроники, инжектора, ABS</li>
+          <li>— Подвеска: сервис вилок и амортизаторов</li>
+          <li>— Тормозная система: колодки, диски, прокачка</li>
+          <li>— Цепь/звёзды, шиномонтаж и балансировка</li>
+          <li>— Подготовка к сезону, межсезонное хранение</li>
+        </ul>
+      </article>
+
+      <!-- КВАДРОЦИКЛЫ И СНЕГОХОДЫ -->
+      <article class="card reveal">
+        <h3>Квадроциклы и снегоходы</h3>
+        <ul class="dash">
+          <li>— ТО и предсезонная подготовка (лето/зима)</li>
+          <li>— Ремонт трансмиссии: вариатор, редукторы, привода</li>
+          <li>— Ходовая часть: рычаги, подшипники, сайлент-блоки</li>
+          <li>— Электрика и свет, установка аксессуаров</li>
+          <li>— Шины/гусеницы, защита днища, багажные системы</li>
+          <li>— Диагностика после активной эксплуатации</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="price" class="section">
+  <div class="container">
+    <h2 class="reveal">Прайс</h2>
+    <table class="price-table">
+      <thead>
+        <tr>
+          <th>Услуга</th>
+          <th>Цена</th>
+        </tr>
+      </thead>
+
+      <thead>
+        <tr>
+          <th colspan="2">Лодочный сервис</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Плановое ТО катеров и моторов</td><td>—</td></tr>
+        <tr><td>Диагностика двигателя, электрики, топливной системы</td><td>—</td></tr>
+        <tr><td>Ремонт корпуса, гелькоута и покраска</td><td>—</td></tr>
+        <tr><td>Полировка корпуса и палубы</td><td>—</td></tr>
+        <tr><td>Нанесение защитных покрытий (керамика, воск, плёнка)</td><td>—</td></tr>
+        <tr><td>Детейлинг интерьера: химчистка салона, тика, фурнитуры</td><td>—</td></tr>
+        <tr><td>Установка навигационного и мультимедиа оборудования</td><td>—</td></tr>
+        <tr><td>Консервация и расконсервация</td><td>—</td></tr>
+        <tr><td>Хранение катеров и лодок</td><td>—</td></tr>
+      </tbody>
+
+      <thead>
+        <tr>
+          <th colspan="2">Мото сервис</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Плановое ТО и сезонная подготовка</td><td>—</td></tr>
+        <tr><td>Диагностика двигателя, электроники и топливной системы</td><td>—</td></tr>
+        <tr><td>Ремонт подвески, тормозной системы</td><td>—</td></tr>
+        <tr><td>Замена и балансировка шин</td><td>—</td></tr>
+        <tr><td>Замена масел и технических жидкостей</td><td>—</td></tr>
+        <tr><td>Ремонт и обслуживание цепей, звезд, приводов</td><td>—</td></tr>
+        <tr><td>Установка дополнительного освещения</td><td>—</td></tr>
+        <tr><td>Прочие доработки, тюнинг</td><td>—</td></tr>
+      </tbody>
+
+      <thead>
+        <tr>
+          <th colspan="2">Квадроциклы и снегоходы</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Плановое ТО, ремонт узлов и агрегатов</td><td>—</td></tr>
+        <tr><td>Подготовка к сезону: лето/зима</td><td>—</td></tr>
+        <tr><td>Обслуживание тормозной системы</td><td>—</td></tr>
+        <tr><td>Установка защиты, систем хранения</td><td>—</td></tr>
+        <tr><td>Ремонт вариатора (CVT)</td><td>—</td></tr>
+        <tr><td>Диагностика двигателя, электрики, трансмиссии</td><td>—</td></tr>
+        <tr><td>Прочие доработки под ваши условия эксплуатации</td><td>—</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+  <!-- НАШИ РАБОТЫ (плейсхолдеры) -->
+  <section id="works" class="section section--alt">
+    <div class="container">
+      <h2 class="reveal">Наши работы</h2>
+      <div class="gallery">
+        <a class="gallery__item reveal" href="#" aria-label="Работа 1"><img src="assets/placeholders/work1.jpg" alt=""></a>
+        <a class="gallery__item reveal" href="#" aria-label="Работа 2"><img src="assets/placeholders/work2.jpg" alt=""></a>
+        <a class="gallery__item reveal" href="#" aria-label="Работа 3"><img src="assets/placeholders/work3.jpg" alt=""></a>
+      </div>
+    </div>
+  </section>
+
+<section id="why" class="section">
+  <div class="container">
+    <h2 class="reveal" style="text-align:center">Почему мы</h2>
+
+    <ul class="benefits benefits--why reveal">
+      <li>Индивидуальные решения</li>
+      <li>Опыт 10+ лет</li>
+      <li>Скорость и качество</li>
+      <li>Гарантия</li>
+
+      <li>Прозрачные условия</li>
+      <li>Комплексный подход</li>
+      <li>Запчасти и расходники в наличии</li>
+      <li>Всегда фото-/видео-отчёт по работам</li>
+    </ul>
+  </div>
+</section>
+
+  <!-- FAQ -->
+<section id="faq" class="section section--alt">
+  <div class="container">
+    <h2 class="reveal">FAQ</h2>
+
+    <details class="faq reveal">
+      <summary>Какие виды техники вы обслуживаете?</summary>
+      <div>Лодки и катера, мотоциклы, квадроциклы, снегоходы и гидроциклы, авто по согласованию.</div>
+    </details>
+
+    <details class="faq reveal">
+      <summary>Нужно ли записываться заранее?</summary>
+      <div>Желательно — так мы резервируем бокс и мастера.</div>
+    </details>
+
+    <details class="faq reveal">
+      <summary>Сколько занимает диагностика?</summary>
+      <div>От 30 минут до 2 часов в зависимости от вида транспорта, модели и узлов.</div>
+    </details>
+
+    <details class="faq reveal">
+      <summary>Даете ли вы смету заранее?</summary>
+      <div>Да, согласуем смету и сроки. Дополнительные работы — только с согласия клиента.</div>
+    </details>
+
+    <details class="faq reveal">
+      <summary>Какая гарантия на ремонт?</summary>
+      <div>До 12 месяцев на основные виды работ. Все фиксируем в заказ-наряде.</div>
+    </details>
+
+    <details class="faq reveal">
+      <summary>Можно ли привезти свои запчасти?</summary>
+      <div>Да, при условии проверки совместимости нашими специалистами.</div>
+    </details>
+
+    <details class="faq reveal">
+      <summary>Делаете ли срочный ремонт?</summary>
+      <div>Да, есть возможность организовать приоритетный слот для срочных заказов.</div>
+    </details>
+
+    <details class="faq reveal">
+      <summary>Какие способы оплаты доступны?</summary>
+      <div>Наличные, карты, переводы, а также безнал для юрлиц.</div>
+    </details>
+
+    <details class="faq reveal">
+      <summary>Делаете ли фото-/видео-отчёт?</summary>
+      <div>Конечно, по запросу клиента фиксируем все этапы работ.</div>
+    </details>
+
+    <details class="faq reveal">
+      <summary>Есть ли эвакуация техники?</summary>
+      <div>Есть, организуем доставку лодок, мотоциклов и другой техники до сервиса.</div>
+    </details>
+
+    <details class="faq reveal">
+      <summary>Можно ли оценить ремонт по фото/видео?</summary>
+      <div>Да, предварительно. Точная смета — только после диагностики.</div>
+    </details>
+
+    <details class="faq reveal">
+      <summary>Работаете ли вы зимой?</summary>
+      <div>Да, круглогодично. Также делаем консервацию и хранение.</div>
+    </details>
+
+    <details class="faq reveal">
+      <summary>Храните ли вы технику?</summary>
+      <div>Да, есть варианты тёплого и холодного хранения.</div>
+    </details>
+
+    <details class="faq reveal">
+      <summary>Устанавливаете ли дополнительное оборудование?</summary>
+      <div>Такая возможность существует, но лучше уточнить по телефону.</div>
+    </details>
+
+    <details class="faq reveal">
+      <summary>Работаете ли с корпоративными клиентами?</summary>
+      <div>Да, есть условия для баз отдыха, прокатов и клубов.</div>
+    </details>
+
+    <details class="faq reveal">
+      <summary>Есть ли скидки постоянным клиентам?</summary>
+      <div>Конечно, действует программа лояльности и пакетные предложения.</div>
+    </details>
+
+    <details class="faq reveal">
+      <summary>Как быстро начинаете работы после диагностики?</summary>
+      <div>Обычно — в тот же день. При отсутствии необхожимых деталей — сразу после их поступления.</div>
+    </details>
+
+    <details class="faq reveal">
+      <summary>Где вы находитесь?</summary>
+      <div>Наш адрес и координаты в разделе «Карта» ниже. Можно построить маршрут через Яндекс.Карты.</div>
+    </details>
+
+  </div>
+</section>
+
+
+  <section id="map" class="section">
+    <div class="container">
+      <h2 class="reveal">Как нас найти</h2>
+
+    <div class="mapbox">
+      <iframe 
+        src="https://yandex.ru/map-widget/v1/?ll=38.089546%2C56.275650&z=16&pt=38.089546,56.275650,pm2rdm" 
+        width="100%" 
+        height="450" 
+        frameborder="0" 
+        allowfullscreen="true">
+      </iframe>
+    </div>
+
+      <ul class="contacts reveal">
+        <li><strong>Адрес:</strong> Московская область, г. Сергиев-Посад, мкр-н Семхоз, ул. Парковая 8</li>
+        <li><strong>Время:</strong> Ежедневно, 9:00–19:00</li>
+        <li><strong>Телефон:</strong> <a href="tel:+79771022796">+7 (977) 102‑27‑96</a></li> 
+        <li><strong>Почта:</strong> <a href="mailto:info@navigation-sp.ru">info@navigation-sp.ru</a></li>
+       <!-- <li><strong>Telegram:</strong> <a href="https://t.me/your_bot">@your_bot</a></li> -->
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <span>© 2025 ООО "Навигация"</span>
+    <a href="tel:+79771022796" class="footer__phone">+7 (977) 102‑27‑96</a> -
+  </div>
+</footer>
+
+<!-- Липкая панель (моб.) -->
+<div class="sticky-cta">
+  <a href="tel:+7(977)102-27-96">Позвонить</a>
+  <a href="mailto:hello@example.com">Написать</a>
+</div>
+
+<script src="/assets/main.js"></script>
+</body>
+</html>

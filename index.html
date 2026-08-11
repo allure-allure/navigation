@@ -1,329 +1,83 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Навигация — лодочный сервис, автосервис, детейлинг</title>
-  <meta name="description" content="Сервис лодок, мото, снегоходов и детейлинг. Быстро, честно, с гарантией." />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Unbounded:wght@700;800&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/svg+xml" href="assets/icon.svg">
-  <link rel="stylesheet" href="assets/style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Сервис лодок, мототехники, квадроциклов и снегоходов в Сергиевом Посаде.">
+  <title>Навигация — сервис лодок и техники в Сергиевом Посаде</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Prata&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/main-enhancements.css">
+  <link rel="stylesheet" href="assets/faq-groups.css">
+  <link rel="icon" href="assets/navigation-mark.png">
 </head>
 <body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Навигация — на главную"><span class="brand-mark"><img src="assets/navigation-mark.png" alt=""></span><span>Навигация</span></a>
+    <nav class="site-nav" aria-label="Основная навигация">
+      <a href="#services">Услуги</a><a href="#price">Цены</a><a href="#process">Как работаем</a><a href="materials.html">Материалы</a><a href="#contacts">Контакты</a>
+    </nav>
+    <a class="header-phone" href="tel:+79771022796">+7 977 102‑27‑96</a>
+  </header>
 
-<header class="header">
-  <a class="brand" href="#top" aria-label="На главную">
-      <img src="assets/light.svg" alt="Маяк" class="logo-icon">
-    <span class="brand__name">Навигация</span>
-  </a>
-
-  <nav class="nav">
-    <a href="#services">Услуги</a>
-    <a href="#price">Прайс</a>
-    <a href="#works">Работы</a>
-    <a href="#why">Почему мы</a>
-    <a href="#faq">FAQ</a>
-    <a href="#map">Карта</a>
-  </nav>
-</header>
-
-<main id="top">
-  <section class="hero section">
-    <img src="assets/boat.webp" alt="" class="hero-boat">
-    <div class="hero__inner reveal">
-      <h1>Навигация</h1>
-      <p class="lead">Сервис лодок, мото, снегоходов и детейлинг. Быстро, честно, с гарантией.</p>
-
-      <div class="cta">
-        <a class="btn btn--primary" href="tel:+7XXXXXXXXXX">
-          Позвоните нам
-        </a>
-        <a class="btn btn--ghost" href="mailto:hello@example.com?subject=Заявка%20с%20сайта">
-          Написать на почту
-        </a>
-        <!-- или бот: <a class="btn btn--ghost" href="https://t.me/your_bot">Написать в Telegram</a> -->
+  <main id="top">
+    <section class="hero">
+      <div class="hero-media" aria-hidden="true"></div>
+      <div class="shell hero-content">
+        <p class="eyebrow">Сергиев Посад · с 9:00 до 19:00</p>
+        <h1>Техника, которой<br>можно<br><em>доверять</em></h1>
+        <p class="hero-lead">Сервис лодок и катеров, мототехники, квадроциклов и снегоходов. Диагностика, обслуживание, ремонт и подготовка к сезону.</p>
+        <div class="hero-actions"><a class="button button-primary" href="tel:+79771022796">Позвонить в сервис</a><a class="button button-quiet" href="#photo-estimate">Оценка по фото</a></div>
+        <p class="hero-note">Смета и дополнительные работы согласуются до начала ремонта.</p>
       </div>
-    </div>
-  </section>
+    </section>
 
-<section id="services" class="section section--alt">
-  <div class="container">
-    <h2 class="reveal">Услуги</h2>
-
-    <div class="cards cards--3">
-      <!-- ЛОДОЧНЫЙ СЕРВИС + ДЕТЕЙЛИНГ -->
-      <article class="card reveal">
-        <h3>Катера и лодки </h3>
-        <ul class="dash">
-          <li>— Плановое ТО катеров и моторов</li>
-          <li>— Диагностика ходовой части, электроники, топливной системы</li>
-          <li>— Ремонт гелькоута и локальная покраска</li>
-          <li>— Полировка корпуса и палубы, восстановление блеска</li>
-          <li>— Защитные покрытия: керамика, воск, плёнка</li>
-          <li>— Детейлинг интерьера: химчистка салона, тика, фурнитуры</li>
-          <li>— Сезонная консервация/расконсервация</li>
-        </ul>
-      </article>
-
-      <!-- МОТО СЕРВИС -->
-      <article class="card reveal">
-        <h3>Мотосервис</h3>
-        <ul class="dash">
-          <li>— Регулярное ТО, подбор масел и расходников</li>
-          <li>— Диагностика электроники, инжектора, ABS</li>
-          <li>— Подвеска: сервис вилок и амортизаторов</li>
-          <li>— Тормозная система: колодки, диски, прокачка</li>
-          <li>— Цепь/звёзды, шиномонтаж и балансировка</li>
-          <li>— Подготовка к сезону, межсезонное хранение</li>
-        </ul>
-      </article>
-
-      <!-- КВАДРОЦИКЛЫ И СНЕГОХОДЫ -->
-      <article class="card reveal">
-        <h3>Квадроциклы и снегоходы</h3>
-        <ul class="dash">
-          <li>— ТО и предсезонная подготовка (лето/зима)</li>
-          <li>— Ремонт трансмиссии: вариатор, редукторы, привода</li>
-          <li>— Ходовая часть: рычаги, подшипники, сайлент-блоки</li>
-          <li>— Электрика и свет, установка аксессуаров</li>
-          <li>— Шины/гусеницы, защита днища, багажные системы</li>
-          <li>— Диагностика после активной эксплуатации</li>
-        </ul>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section id="price" class="section">
-  <div class="container">
-    <h2 class="reveal">Прайс</h2>
-    <table class="price-table">
-      <thead>
-        <tr>
-          <th>Услуга</th>
-          <th>Цена</th>
-        </tr>
-      </thead>
-
-      <thead>
-        <tr>
-          <th colspan="2">Лодочный сервис</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td>Плановое ТО катеров и моторов</td><td>—</td></tr>
-        <tr><td>Диагностика двигателя, электрики, топливной системы</td><td>—</td></tr>
-        <tr><td>Ремонт корпуса, гелькоута и покраска</td><td>—</td></tr>
-        <tr><td>Полировка корпуса и палубы</td><td>—</td></tr>
-        <tr><td>Нанесение защитных покрытий (керамика, воск, плёнка)</td><td>—</td></tr>
-        <tr><td>Детейлинг интерьера: химчистка салона, тика, фурнитуры</td><td>—</td></tr>
-        <tr><td>Установка навигационного и мультимедиа оборудования</td><td>—</td></tr>
-        <tr><td>Консервация и расконсервация</td><td>—</td></tr>
-        <tr><td>Хранение катеров и лодок</td><td>—</td></tr>
-      </tbody>
-
-      <thead>
-        <tr>
-          <th colspan="2">Мото сервис</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td>Плановое ТО и сезонная подготовка</td><td>—</td></tr>
-        <tr><td>Диагностика двигателя, электроники и топливной системы</td><td>—</td></tr>
-        <tr><td>Ремонт подвески, тормозной системы</td><td>—</td></tr>
-        <tr><td>Замена и балансировка шин</td><td>—</td></tr>
-        <tr><td>Замена масел и технических жидкостей</td><td>—</td></tr>
-        <tr><td>Ремонт и обслуживание цепей, звезд, приводов</td><td>—</td></tr>
-        <tr><td>Установка дополнительного освещения</td><td>—</td></tr>
-        <tr><td>Прочие доработки, тюнинг</td><td>—</td></tr>
-      </tbody>
-
-      <thead>
-        <tr>
-          <th colspan="2">Квадроциклы и снегоходы</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td>Плановое ТО, ремонт узлов и агрегатов</td><td>—</td></tr>
-        <tr><td>Подготовка к сезону: лето/зима</td><td>—</td></tr>
-        <tr><td>Обслуживание тормозной системы</td><td>—</td></tr>
-        <tr><td>Установка защиты, систем хранения</td><td>—</td></tr>
-        <tr><td>Ремонт вариатора (CVT)</td><td>—</td></tr>
-        <tr><td>Диагностика двигателя, электрики, трансмиссии</td><td>—</td></tr>
-        <tr><td>Прочие доработки под ваши условия эксплуатации</td><td>—</td></tr>
-      </tbody>
-    </table>
-  </div>
-</section>
-
-  <!-- НАШИ РАБОТЫ (плейсхолдеры) -->
-  <section id="works" class="section section--alt">
-    <div class="container">
-      <h2 class="reveal">Наши работы</h2>
-      <div class="gallery">
-        <a class="gallery__item reveal" href="#" aria-label="Работа 1"><img src="assets/placeholders/work1.jpg" alt=""></a>
-        <a class="gallery__item reveal" href="#" aria-label="Работа 2"><img src="assets/placeholders/work2.jpg" alt=""></a>
-        <a class="gallery__item reveal" href="#" aria-label="Работа 3"><img src="assets/placeholders/work3.jpg" alt=""></a>
+    <section class="section" id="services">
+      <div class="shell">
+        <div class="section-heading"><p class="eyebrow">Направления сервиса</p><h2>Точный подход<br>к каждой технике</h2><p>Выполняем понятные сервисные работы и объясняем, что требуется технике — без навязанных услуг.</p></div>
+        <div class="service-grid">
+          <article class="service-card service-card--boat"><span class="service-number">01</span><h3>Лодки и катера</h3><p>Моторы, корпуса, гелькоут, транцы, электрика, оборудование, полировка и сезонные работы.</p><a href="#price">Смотреть цены <span>↗</span></a></article>
+          <article class="service-card"><span class="service-number">02</span><h3>Мототехника</h3><p>Плановое обслуживание, диагностика, ходовая часть, тормоза, электрика и подготовка к сезону.</p><a href="tel:+79771022796">Уточнить работы <span>↗</span></a></article>
+          <article class="service-card"><span class="service-number">03</span><h3>Квадроциклы и снегоходы</h3><p>ТО, ремонт агрегатов, вариатора и ходовой, защита, свет и сезонная подготовка.</p><a href="tel:+79771022796">Уточнить работы <span>↗</span></a></article>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-<section id="why" class="section">
-  <div class="container">
-    <h2 class="reveal" style="text-align:center">Почему мы</h2>
+    <section class="section section-dark" id="price">
+      <div class="shell">
+        <div class="section-heading section-heading--light"><p class="eyebrow">Ориентиры по работам</p><h2>Цены на лодочный сервис</h2><p>Цены указаны за работы. Материалы и детали рассчитываются отдельно, если это не оговорено в услуге.</p></div>
+        <div class="price-grid">
+          <article class="price-group"><h3>Лодочные моторы</h3><dl><div><dt>Первичная диагностика</dt><dd>от 2 500 ₽</dd></div><div><dt>Компьютерная диагностика</dt><dd>от 3 500 ₽</dd></div><div><dt>ТО мотора до 30 л.с.</dt><dd>от 4 000 ₽</dd></div><div><dt>ТО мотора 70–100 л.с.</dt><dd>от 7 000 ₽</dd></div><div><dt>Консервация</dt><dd>от 3 000 ₽</dd></div><div><dt>Ремонт редуктора</dt><dd>от 7 000 ₽</dd></div></dl></article>
+          <article class="price-group"><h3>Корпус и покрытие</h3><dl><div><dt>Мелкий ремонт гелькоута</dt><dd>от 4 500 ₽</dd></div><div><dt>Ремонт трещин</dt><dd>от 7 000 ₽</dd></div><div><dt>Ремонт стеклопластика</dt><dd>от 10 000 ₽</dd></div><div><dt>Усиление транца</dt><dd>от 25 000 ₽</dd></div><div><dt>Подготовка под окраску</dt><dd>от 3 500 ₽/м²</dd></div><div><dt>Окраска</dt><dd>от 8 500 ₽/м²</dd></div></dl></article>
+          <article class="price-group"><h3>Электрика и оснащение</h3><dl><div><dt>Установка эхолота</dt><dd>от 12 000 ₽</dd></div><div><dt>Картплоттер с врезкой</dt><dd>от 18 000 ₽</dd></div><div><dt>Носовой электромотор</dt><dd>от 25 000 ₽</dd></div><div><dt>Якорная лебёдка</dt><dd>от 18 000 ₽</dd></div><div><dt>Гидравлическое рулевое</dt><dd>от 22 000 ₽</dd></div><div><dt>Электромонтажные работы</dt><dd>от 3 500 ₽/час</dd></div></dl></article>
+        </div>
+        <p class="price-disclaimer">Окончательную стоимость определяем после диагностики и согласовываем до выполнения работ.</p>
+      </div>
+    </section>
 
-    <ul class="benefits benefits--why reveal">
-      <li>Индивидуальные решения</li>
-      <li>Опыт 10+ лет</li>
-      <li>Скорость и качество</li>
-      <li>Гарантия</li>
+    <section class="section process-section" id="process"><div class="shell"><div class="section-heading"><p class="eyebrow">Понятный процесс</p><h2>От обращения<br>до приёмки</h2></div><ol class="process-list"><li><span>01</span><div><h3>Обращение</h3><p>Звонок, письмо или сообщение в WhatsApp.</p></div></li><li><span>02</span><div><h3>Предварительная оценка</h3><p>Обсуждаем возможный объём работ.</p></div></li><li><span>03</span><div><h3>Диагностика и смета</h3><p>Согласуем работы, материалы, сроки и стоимость.</p></div></li><li><span>04</span><div><h3>Ремонт и приёмка</h3><p>Выполняем согласованные работы и передаём технику с рекомендациями.</p></div></li></ol></div></section>
 
-      <li>Прозрачные условия</li>
-      <li>Комплексный подход</li>
-      <li>Запчасти и расходники в наличии</li>
-      <li>Всегда фото-/видео-отчёт по работам</li>
-    </ul>
-  </div>
-</section>
+    <section class="section section-sand" id="photo-estimate"><div class="shell split"><div><p class="eyebrow">Предварительная консультация</p><h2>Можно оценить ремонт по фото</h2></div><div><p>Пришлите фотографии и краткое описание проблемы в WhatsApp или на почту. Мы сможем сориентировать по возможному объёму работ. Точная смета формируется после осмотра и диагностики.</p><a class="text-link" href="https://wa.me/79771022796" target="_blank" rel="noopener">Написать в WhatsApp <span>↗</span></a></div></div></section>
 
-  <!-- FAQ -->
-<section id="faq" class="section section--alt">
-  <div class="container">
-    <h2 class="reveal">FAQ</h2>
+    <section class="section" id="materials"><div class="shell"><div class="materials-banner"><div><p class="eyebrow">Полезное владельцу</p><h2>Подготовьте лодку<br>к сезону уверенно</h2><p>Практические чек-листы перед выходом на воду и перед зимним хранением.</p><a class="button button-dark" href="materials.html">Открыть материалы</a></div><div class="material-list"><a href="boat-preseason.html">Весенняя подготовка <span>01</span></a><a href="motor-check.html">Проверка мотора <span>02</span></a><a href="safety-electrics.html">Электрика и безопасность <span>03</span></a><a href="winter-storage.html">Консервация <span>04</span></a></div></div></div></section>
 
-    <details class="faq reveal">
-      <summary>Какие виды техники вы обслуживаете?</summary>
-      <div>Лодки и катера, мотоциклы, квадроциклы, снегоходы и гидроциклы, авто по согласованию.</div>
-    </details>
+    <section class="section section-dark delivery"><div class="shell split split--reverse"><div><p class="eyebrow">Логистика</p><h2>Заберём технику<br>в сервис и обратно</h2></div><div><p>Перевозка лодок и катеров — от 100 ₽ за километр пробега автомобиля. Минимальный заказ — от 5 000 ₽. Стоимость зависит от маршрута, габаритов и необходимости погрузки.</p><p>Работаем в Сергиевом Посаде и соседних городах по согласованию.</p></div></div></section>
 
-    <details class="faq reveal">
-      <summary>Нужно ли записываться заранее?</summary>
-      <div>Желательно — так мы резервируем бокс и мастера.</div>
-    </details>
-
-    <details class="faq reveal">
-      <summary>Сколько занимает диагностика?</summary>
-      <div>От 30 минут до 2 часов в зависимости от вида транспорта, модели и узлов.</div>
-    </details>
-
-    <details class="faq reveal">
-      <summary>Даете ли вы смету заранее?</summary>
-      <div>Да, согласуем смету и сроки. Дополнительные работы — только с согласия клиента.</div>
-    </details>
-
-    <details class="faq reveal">
-      <summary>Какая гарантия на ремонт?</summary>
-      <div>До 12 месяцев на основные виды работ. Все фиксируем в заказ-наряде.</div>
-    </details>
-
-    <details class="faq reveal">
-      <summary>Можно ли привезти свои запчасти?</summary>
-      <div>Да, при условии проверки совместимости нашими специалистами.</div>
-    </details>
-
-    <details class="faq reveal">
-      <summary>Делаете ли срочный ремонт?</summary>
-      <div>Да, есть возможность организовать приоритетный слот для срочных заказов.</div>
-    </details>
-
-    <details class="faq reveal">
-      <summary>Какие способы оплаты доступны?</summary>
-      <div>Наличные, карты, переводы, а также безнал для юрлиц.</div>
-    </details>
-
-    <details class="faq reveal">
-      <summary>Делаете ли фото-/видео-отчёт?</summary>
-      <div>Конечно, по запросу клиента фиксируем все этапы работ.</div>
-    </details>
-
-    <details class="faq reveal">
-      <summary>Есть ли эвакуация техники?</summary>
-      <div>Есть, организуем доставку лодок, мотоциклов и другой техники до сервиса.</div>
-    </details>
-
-    <details class="faq reveal">
-      <summary>Можно ли оценить ремонт по фото/видео?</summary>
-      <div>Да, предварительно. Точная смета — только после диагностики.</div>
-    </details>
-
-    <details class="faq reveal">
-      <summary>Работаете ли вы зимой?</summary>
-      <div>Да, круглогодично. Также делаем консервацию и хранение.</div>
-    </details>
-
-    <details class="faq reveal">
-      <summary>Храните ли вы технику?</summary>
-      <div>Да, есть варианты тёплого и холодного хранения.</div>
-    </details>
-
-    <details class="faq reveal">
-      <summary>Устанавливаете ли дополнительное оборудование?</summary>
-      <div>Такая возможность существует, но лучше уточнить по телефону.</div>
-    </details>
-
-    <details class="faq reveal">
-      <summary>Работаете ли с корпоративными клиентами?</summary>
-      <div>Да, есть условия для баз отдыха, прокатов и клубов.</div>
-    </details>
-
-    <details class="faq reveal">
-      <summary>Есть ли скидки постоянным клиентам?</summary>
-      <div>Конечно, действует программа лояльности и пакетные предложения.</div>
-    </details>
-
-    <details class="faq reveal">
-      <summary>Как быстро начинаете работы после диагностики?</summary>
-      <div>Обычно — в тот же день. При отсутствии необхожимых деталей — сразу после их поступления.</div>
-    </details>
-
-    <details class="faq reveal">
-      <summary>Где вы находитесь?</summary>
-      <div>Наш адрес и координаты в разделе «Карта» ниже. Можно построить маршрут через Яндекс.Карты.</div>
-    </details>
-
-  </div>
-</section>
-
-
-  <section id="map" class="section">
-    <div class="container">
-      <h2 class="reveal">Как нас найти</h2>
-
-    <div class="mapbox">
-      <iframe 
-        src="https://yandex.ru/map-widget/v1/?ll=38.089546%2C56.275650&z=16&pt=38.089546,56.275650,pm2rdm" 
-        width="100%" 
-        height="450" 
-        frameborder="0" 
-        allowfullscreen="true">
-      </iframe>
-    </div>
-
-      <ul class="contacts reveal">
-        <li><strong>Адрес:</strong> Московская область, г. Сергиев-Посад, мкр-н Семхоз, ул. Парковая 8</li>
-        <li><strong>Время:</strong> Ежедневно, 9:00–19:00</li>
-        <li><strong>Телефон:</strong> <a href="tel:+79771022796">+7 (977) 102‑27‑96</a></li> 
-        <li><strong>Почта:</strong> <a href="mailto:info@navigation-sp.ru">info@navigation-sp.ru</a></li>
-       <!-- <li><strong>Telegram:</strong> <a href="https://t.me/your_bot">@your_bot</a></li> -->
-      </ul>
-    </div>
-  </section>
-</main>
-
-<footer class="footer">
-  <div class="container footer__inner">
-    <span>© 2025 ООО "Навигация"</span>
-    <a href="tel:+79771022796" class="footer__phone">+7 (977) 102‑27‑96</a> -
-  </div>
-</footer>
-
-<!-- Липкая панель (моб.) -->
-<div class="sticky-cta">
-  <a href="tel:+7(977)102-27-96">Позвонить</a>
-  <a href="mailto:hello@example.com">Написать</a>
-</div>
-
-<script src="./assets/main.js"></script>
+    <section class="guarantee-section"><div class="shell guarantee-grid"><div class="guarantee-copy"><p class="eyebrow">Прозрачные условия</p><h2>Гарантия на согласованные работы</h2><p>Срок гарантии зависит от вида выполненных работ и указывается в заказ-наряде. До начала ремонта согласуем объём, материалы, стоимость и сроки.</p></div><ul class="guarantee-list"><li><b>Выполненные работы</b><span>Гарантия действует в рамках согласованного объёма ремонта.</span></li><li><b>Установленные сервисом детали</b><span>Учитывается гарантия производителя или поставщика, если она предусмотрена.</span></li><li><b>Понятная фиксация</b><span>Условия и рекомендации по эксплуатации фиксируются в заказ-наряде.</span></li></ul></div></section>
+    <section class="faq-section"><div class="shell"><div class="section-heading"><p class="eyebrow">Ответы на вопросы</p><h2>Важное до обращения</h2><p>Собрали практические ответы, которые помогают подготовиться к записи и понять порядок работ.</p></div><div class="faq-list">
+  <details><summary>Нужно ли записываться заранее?</summary><p>Желательно: так мы резервируем бокс и время на диагностику. Для срочных случаев возможность приоритетного слота уточняем отдельно.</p></details>
+  <details><summary>Сколько занимает диагностика?</summary><p>Обычно от 30 минут до 2 часов. Точное время зависит от модели, симптомов и доступности узлов для осмотра.</p></details>
+  <details><summary>Можно ли привезти свои запчасти?</summary><p>Да, после проверки совместимости с техникой и согласования с сервисом.</p></details>
+  <details><summary>Делаете фото- или видеоотчёт?</summary><p>По запросу фиксируем ключевые этапы работ, чтобы вы понимали ход ремонта.</p></details>
+  <details><summary>Какие способы оплаты доступны?</summary><p>Наличные, карты, переводы и безналичный расчёт для юридических лиц.</p></details>
+  <details><summary>Как быстро начинаете работы после диагностики?</summary><p>Сообщаем срок после оценки загрузки, поставки деталей и согласования объёма работ.</p></details>
+</div></div></section>
+    <section class="section contacts" id="contacts"><div class="shell contact-grid"><div><p class="eyebrow">Контакты</p><h2>Будем на связи</h2><address>Московская область, Сергиев Посад,<br>мкр-н Семхоз, ул. Парковая, 8</address><p>Ежедневно · 9:00–19:00</p><a class="contact-phone" href="tel:+79771022796">+7 (977) 102‑27‑96</a><a class="contact-email" href="mailto:info@navigation-sp.ru">info@navigation-sp.ru</a><div class="contact-actions"><a class="contact-action contact-action--whatsapp" href="https://wa.me/79771022796" target="_blank" rel="noopener">WhatsApp</a><a class="contact-action contact-action--route" id="route-link" href="https://yandex.ru/maps/?ll=38.089546%2C56.275650&z=16&pt=38.089546,56.275650,pm2rdm" target="_blank" rel="noopener">Построить маршрут <span>↗</span></a></div></div><div class="mapbox"><iframe title="Карта проезда" src="https://yandex.ru/map-widget/v1/?ll=38.089546%2C56.275650&z=16&pt=38.089546,56.275650,pm2rdm" loading="lazy" allowfullscreen></iframe></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="shell"><a class="brand" href="#top"><span class="brand-mark"><img src="assets/navigation-mark.png" alt=""></span><span>Навигация</span></a><span>© 2026 ООО «Навигация»</span><a href="materials.html">Полезные материалы</a></div></footer>
+<script src="assets/main.js"></script>
+<script src="assets/faq-groups.js"></script>
 </body>
 </html>

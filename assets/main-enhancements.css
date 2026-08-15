@@ -7,3 +7,5 @@
 .hero h1{max-width:560px;font-size:clamp(46px,5.4vw,76px)}.hero-lead{max-width:470px}.hero-media{background:linear-gradient(90deg,#fff 0%,rgba(255,255,255,.98) 42%,rgba(255,255,255,.7) 57%,rgba(255,255,255,.08) 77%,rgba(255,255,255,0) 100%),url('images/hero-boat-burgundy.webp') center/cover no-repeat}.contact-actions{gap:10px}.contact-actions .contact-action{display:inline-flex;align-items:center;gap:8px;min-height:42px;padding:0 15px;border:1px solid var(--line);color:var(--red);font:800 12px Manrope,Arial;text-decoration:none}.contact-actions .contact-action:hover{background:var(--red);border-color:var(--red);color:#fff}.contact-action--route span{font-size:16px;line-height:1}
 
 .hero h1{max-width:720px;font-size:clamp(42px,4.6vw,66px)}
+
+.service-card a span,.text-link span,.contact-action--route span{font-family:Georgia,serif;font-style:normal}
